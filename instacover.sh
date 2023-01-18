@@ -1,26 +1,39 @@
 #!/bin/bash
 
+## prompt for user to enter relavant information ##
+
+echo "ENTER: position title"
+read title
+echo "ENTER: Company Name"
+read cona
+echo "ENTER: location"
+read location
+
+## set date in (Month Day, Year) format ##
+
 dte=$(date '+%B %d, %Y')
 
-var="
+## basic outline for cover letter ##
+
+text="
 
 **[$dte]**
 
 
 &nbsp;
 
-$2
+$cona
 
-$3
+$location
 
 
-Subject: 	$1
+Subject: 	$title
 
 &nbsp;
 
 To whom it may concern, 
 
-I hope this letter finds you well.  Please accept my resume for consideration as you seek to fill the opening for the $1 role. I think that my skills and experiences would be directly leveraged within this role:
+I hope this letter finds you well.  Please accept my resume for consideration as you seek to fill the opening for the $title role. I think that my skills and experiences would be directly leveraged within this role:
 
 - Through my studies of Economics & Political Science, I learned how to take and clean large data sets to examine them for relevant insights. For my capstone project, I looked at the relationship between success in sports and success in admissions. This project required me to take data from multiple sources and put it in panel format. I was able to present my findings to a group of faculty and received high marks for the research. 
 
@@ -36,7 +49,11 @@ Best Regards,
 
 Joseph T. Cotton
 "
+ 
+## allows file names to be formated without spaces so it doesnt look ugly as hell in the directory ##
 
-echo "$var" > $2_CoverLetter.md
+fname=$(echo -e "$cona" | tr -d '[:space:]')
 
-pandoc $2_CoverLetter.md -o $2_CoverLetter.pdf
+echo "$text" > "$fname"_CoverLetter.md
+
+pandoc "$fname"_CoverLetter.md -o "$fname"_CoverLetter.pdf
