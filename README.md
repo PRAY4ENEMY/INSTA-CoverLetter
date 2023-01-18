@@ -8,7 +8,11 @@ instacover.sh [POSITION] [COMPANY_NAME] [Location]
 
 If 
 
- 
+viewer =! hiring manager
+
+then 
+
+echo "carry on"
 
 else
 
