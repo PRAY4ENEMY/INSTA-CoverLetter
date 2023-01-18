@@ -56,4 +56,4 @@ fname=$(echo -e "$cona" | tr -d '[:space:]')
 
 echo "$text" > "$fname"_CoverLetter.md
 
-pandoc "$fname"_CoverLetter.md -o "$fname"_CoverLetter.pdf
+pandoc "$fname"_CoverLetter.md -o "$fname"_CoverLetter.pdf && echo "Cover letter for $position @ $cona successfully created"
