@@ -2,7 +2,7 @@
 
 ## Usage 
 
-instacover.sh [POSITION] [COMPANY_NAME] [Location]
+sh instacover.sh
 
 ## additional note 
 
