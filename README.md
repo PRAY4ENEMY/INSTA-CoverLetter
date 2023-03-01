@@ -1,6 +1,6 @@
 # Shelley's Instant Cover Letters !!!
 
-Shelley the turtle has been taking cover for years. Anytime there is something that pips up on the danger radar, Shelley takes cover at **blazingly fast** speeds! 
+Shelley the turtle has been taking cover for years. Anytime there is something that pops up on the danger radar, Shelley takes cover at **blazingly fast** speeds! 
 
 Now, Shelley is giving her power to help you write amazingly formatted cover letters for your job search. Now, you can rest easy knowing that you won't ever sending the wrong file to the wrong employer ever again. 
 
