@@ -1,0 +1,11 @@
+[package]
+name = "tester"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+printpdf = "0.5.3"
+itertools = "0.10.5"
+glyph_brush_layout = "0.2.3"
