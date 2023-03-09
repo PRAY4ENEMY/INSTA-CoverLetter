@@ -14,7 +14,8 @@ Now, Shelley is giving her power to help you write amazingly formatted cover let
 ## In-Progress features 
 
 1. ChatGPT implementation 
-2. support for different file formats 
+2. support for different file formats
+3. "Blaxingly Fast version in Rust"
 
 
 ## Windows Usage
