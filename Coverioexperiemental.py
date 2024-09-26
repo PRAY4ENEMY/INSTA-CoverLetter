@@ -8,7 +8,7 @@ from borb.pdf import pdf
 import os 
 import openai 
 
-openai.api_key_path = ("/home/thrash/openai")
+openai.api_key_path = ("///")
 
 var1 = input("Name : ")
 var2 = input("Company Name: ")
