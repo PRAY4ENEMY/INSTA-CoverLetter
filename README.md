@@ -36,16 +36,8 @@ Edit source code to customize
 
 **note**: requires pandoc and latexpdf
 
+https://pandoc.org/installing.html#linux
+
 ## Additional Note 
 
-If 
-
-viewer =! hiring manager
-
-then 
-
-echo "carry on"
-
-else
-
-echo "no you didn't"
+Pls use responsibly 
